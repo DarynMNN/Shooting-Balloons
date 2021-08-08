@@ -54,7 +54,7 @@ function draw() {
   //creating continous balloons
   var select_balloon = Math.round(random(1,4));
   
-  if (World.frameCount % 10 == 0) {
+  if (World.frameCount % 100 == 0) {
     if (select_balloon == 1) {
       redBalloon();
     } else if (select_balloon == 2) {
